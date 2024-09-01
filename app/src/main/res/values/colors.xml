@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="teal_200">#ff03dac5</color>
+    <color name="teal_700">#204241</color>
+    <color name="colorOnPrimary">#ff018786</color>
+    <color name="app_theme">#009dff</color>
+    <color name="app_theme_light">#094C81</color>
+    <color name="app_theme_blue">#7FFFD4</color>
+    <color name="edit_text_border">#03a9f4</color>
+    <color name="edit_text_background">#f6fbff</color>
+    <color name="marker_color">#FF0000</color>
+    <color name="mapboxBlue">#33C7ED</color>
+    <color name="splash_background">#FFFFFF</color>
+    <color name="darkbrown">#564437</color>"
+    <color name="dark_grey">#333333</color>
+    <color name="black">#000000</color>
+    <color name="green">#0A941A</color>
+    <color name="orange">#783907</color>
+    <color name="yes_button_color">#4CAF50</color> <!-- Green color for "Yes" button -->
+    <color name="no_button_color">#F44336</color> <!-- Red color for "No" button -->
+
+</resources>

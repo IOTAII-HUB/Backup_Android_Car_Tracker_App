@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+
+
+
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/fotor"
+        android:label="Iotaii Fleet"
+        android:roundIcon="@drawable/fotor"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Car_tracker"
+        tools:targetApi="31">
+<!--        <activity-->
+<!--            android:name=".MainActivity"-->
+<!--            android:exported="false" />-->
+        <activity
+            android:name=".history"
+            android:exported="false" />
+        <activity android:name=".notifications"
+            android:exported="false" />
+        <activity
+            android:name=".travelsummary"
+            android:exported="false" />
+        <activity
+            android:name=".lock"
+            android:exported="false" />
+        <activity
+            android:name=".service"
+            android:exported="false" />
+        <activity
+            android:name=".report"
+            android:exported="false" />
+        <activity
+            android:name=".veichle"
+            android:exported="false" />
+        <activity
+            android:name=".userprofile"
+            android:exported="false" />
+        <activity
+            android:name=".privacy"
+            android:exported="false" />
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".raise"
+            android:exported="false" />
+        <activity
+            android:name=".contact"
+            android:exported="false" />
+        <activity
+            android:name=".drivers"
+            android:exported="false" />
+        <activity
+            android:name=".subscription"
+            android:exported="false" />
+        <activity
+            android:name=".km"
+            android:exported="false" />
+        <activity
+            android:name=".livemap"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".dashboard"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_vehicle_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="BR06PF7466"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingBottom="8dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/horizontal_line" />
+
+    <TextView
+        android:id="@+id/tv_share_live_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Live Location"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/rg_share_location_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_only_once"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#141313"
+            android:text="Only Once"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/rb_1_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="1 hour" />
+
+        <RadioButton
+            android:id="@+id/rb_12_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="12 hours" />
+
+        <RadioButton
+            android:id="@+id/rb_1_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="1 day" />
+
+        <RadioButton
+            android:id="@+id/rb_1_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="1 week" />
+
+        <RadioButton
+            android:id="@+id/rb_2_weeks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="2 weeks" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingTop="16dp">
+
+        <ImageView
+            android:id="@+id/iv_confirm"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/correct_success"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"/>
+
+        <ImageView
+            android:id="@+id/iv_cancel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/wrong_svg"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"/>
+    </LinearLayout>
+</LinearLayout>

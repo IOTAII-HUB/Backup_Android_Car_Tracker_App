@@ -1,0 +1,6 @@
+<!-- res/values/strings.xml -->
+<resources>
+    <string name="app_name">Car Tracker</string>
+    <string name="settings_title">Settings</string>
+    <!-- Add other strings here -->
+</resources>

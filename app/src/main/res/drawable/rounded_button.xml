@@ -1,0 +1,11 @@
+<!-- rounded_button.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Background color of the button -->
+    <solid android:color="@color/white" />
+
+    <!-- Corner radius to make the button rounded -->
+    <corners android:radius="20dp" /> <!-- Adjust the radius as per your preference -->
+
+</shape>

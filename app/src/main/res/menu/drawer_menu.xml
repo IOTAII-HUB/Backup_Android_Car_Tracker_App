@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/livemap"
+        android:icon="@drawable/live_map"
+        android:title="Live Map" />
+    <item
+        android:id="@+id/km_summary"
+        android:icon="@drawable/km_summary"
+        android:title="KM Summary" />
+    <item
+        android:id="@+id/subscription"
+        android:icon="@drawable/subscription"
+        android:title="Subscription Due Date" />
+    <item
+        android:id="@+id/drivers"
+        android:icon="@drawable/driver"
+        android:title="Driver" />
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/supportagent"
+        android:title="Contact Us" />
+    <item
+        android:id="@+id/raise"
+        android:icon="@drawable/support_ticket_svgrepo_com"
+        android:title="Raise Ticket" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/privacy"
+        android:icon="@drawable/insurance"
+        android:title="Privacy Policy" />
+    <item
+        android:id="@+id/signout"
+        android:icon="@drawable/sign_out"
+        android:title="Signout" />
+</menu>

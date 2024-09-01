@@ -1,0 +1,7 @@
+<!-- res/drawable/selector_image.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/glow_effect_report"
+        android:state_pressed="true" />
+    <item android:drawable="@drawable/report_problem" />
+</selector>

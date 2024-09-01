@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/cardview_light_background"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="83dp"
+        android:paddingTop="16dp"
+        android:src="@drawable/fotor" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:paddingTop="16dp"
+        android:text="User Name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:paddingEnd="16dp"
+        android:text="V 1.2.0"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

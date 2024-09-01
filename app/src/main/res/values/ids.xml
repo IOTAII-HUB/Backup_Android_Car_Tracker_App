@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="drawer_layout" type="id" />
+    <item name="navigation_view" type="id" />
+    <item name="iv_menu" type="id" />
+    <item name="main_content" type="id" />
+    <item name="image_text" type="id" />
+    <item name="title" type="id" />
+    <item name="description" type="id" />
+</resources>

@@ -1,0 +1,6 @@
+<!-- res/values-hi/strings.xml -->
+<resources>
+    <string name="app_name">कार ट्रैकर</string>
+    <string name="settings_title">सेटिंग्स</string>
+    <!-- Add other strings translated to Hindi -->
+</resources>
